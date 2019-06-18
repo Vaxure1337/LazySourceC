@@ -4,5 +4,9 @@
 #include "Install.h"
 
 void Install::Nmap(){
-  system("sudo apt install nmap")
+  system("sudo apt install nmap");
+}
+
+void Install::Sqlmap(){
+  system("sudo apt install sqlmap");
 }
