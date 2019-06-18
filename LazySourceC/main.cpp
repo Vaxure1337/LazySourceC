@@ -10,11 +10,11 @@ void install_updates(){
 
 void install_tools(){
     install_updates();
-    install::nmap();
-    install::sqlmap();
-    install::jsql();
-    install::bbqsql();
-    install::sqlninja();
+    Install::Nmap();
+    Install::Sqlmap();
+    Install::jsql();
+    Install::bbqsql();
+    Install::sqlninja();
 }
 
 int main(int argc, char **argv)
