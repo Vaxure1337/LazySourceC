@@ -14,3 +14,11 @@ void Install::Sqlmap(){
 void Install::jsql(){
   system("sudo apt install jsql");
 }
+
+void Install::bbqsql(){
+  system("sudo apt install bbqsql");
+}
+
+void Install::sqlninja(){
+  static("sudo apt install sqlninja");
+}
