@@ -10,3 +10,7 @@ void Install::Nmap(){
 void Install::Sqlmap(){
   system("sudo apt install sqlmap");
 }
+
+void Install::jsql(){
+  system("sudo apt install jsql");
+}
